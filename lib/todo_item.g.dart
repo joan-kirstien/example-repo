@@ -9,6 +9,7 @@ part of 'todo_item.dart';
 class TodoItemAdapter extends TypeAdapter<TodoItem> {
   @override
   final int typeId = 1;
+  final int naMe = 3;
 
   @override
   TodoItem read(BinaryReader reader) {
